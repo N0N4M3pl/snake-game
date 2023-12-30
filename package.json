@@ -1,0 +1,33 @@
+{
+  "name": "snake",
+  "version": "0.1.0",
+  "description": "Snake for 2 players",
+  "keywords": [],
+  "devDependencies": {
+    "expose-loader": "4.1.0",
+    "ts-loader": "9.5.1",
+    "typescript": "5.3.3",
+    "webpack": "5.89.0",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1"
+  },
+  "dependencies": {
+    "phaser": "3.70.0"
+  },
+  "scripts": {
+    "dev": "webpack --mode development && webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitsensitive/phaser3-typescript.git"
+  },
+  "author": {
+    "name": "digitsensitive",
+    "email": "digit.sensitivee@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitsensitive/phaser3-typescript/issues"
+  },
+  "homepage": "https://github.com/digitsensitive/phaser3-typescript#readme"
+}
