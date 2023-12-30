@@ -8,7 +8,8 @@ export class BootScene extends Phaser.Scene {
 
   update(): void {
     let lobbyInitData: LobbyInitData = {
-      score: 0,
+      scoreA: 0,
+      scoreB: 0,
     };
     this.scene.start(Const.SCENE_LOBBY, lobbyInitData);
   }

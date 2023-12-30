@@ -1,3 +1,4 @@
 export type LobbyInitData = {
-  score: number;
+  scoreA: number;
+  scoreB: number;
 }
